@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#tela_cheia{
+    height: 100vh; 
+    background: radial-gradient(circle at center, #027fa8, #001b36);
+}
+
+#div_central{
+    display: inline-block;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#apresentacao {
+    position: absolute;
+    color: rgb(154, 188, 218);
+    font-family: Georgia, serif;
+    bottom: calc(64%); 
+    left: 20%;
+}
+#icons { 
+    position: absolute;
+    display: flex; 
+    align-items: center;
+    bottom: calc(75%); 
+    left: 0%;
+}
+
+#icons img {
+    position: relative;
+    margin-left: 15px;
+    height: 60px;
+    width: auto;
+    transition: transform 0.3s; /* Adicione uma transição de transformação para criar um efeito suave. */
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+#icons img:hover {
+    transform: scale(1.2); /* Aumenta o tamanho da imagem para 120% do tamanho original. Você pode ajustar o valor conforme desejado. */
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
+}
+
+#fullstack{
+    color: aliceblue;
+    font-family: Georgia, serif;
+    font-size:6.5em;
+}
+
+#developer{
+    color: aliceblue;
+    font-family: Georgia, serif;
+    font-size:8.5em;
+}
+#descricao {
+    position: absolute;
+    color: rgb(154, 188, 218);
+    font-family: Georgia, sans-serif;
+    bottom: calc(25%); 
+    left: 60%;
+}
+
+p{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
