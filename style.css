@@ -27,7 +27,7 @@ body {
 #icons { 
     position: absolute;
     display: flex; 
-    bottom: calc(64%); 
+    bottom: calc(66%); 
     left: 71%;
 }
 
@@ -50,6 +50,7 @@ body {
     font-family: Georgia, serif;
     font-size:6.5em;
     line-height: 0.8;
+    margin-top: 2px;
 }
 
 #developer{
