@@ -8,28 +8,27 @@ body {
     background: radial-gradient(circle at center, #027fa8, #001b36);
 }
 
-#div_central{
-    display: inline-block;
+#central_externa {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinhar itens à esquerda */
+    justify-content: center; /* Centralizar verticalmente */
     position: absolute;
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 10px; /* Adicione algum espaço interno para o conteúdo */
 }
 
-#apresentacao {
-    position: absolute;
-    color: rgb(154, 188, 218);
-    font-family: Georgia, serif;
-    bottom: calc(64%); 
-    left: 20%;
+#apresentacao{
+    margin-bottom: 10px;
 }
 #icons { 
     position: absolute;
     display: flex; 
-    align-items: center;
-    bottom: calc(75%); 
-    left: 0%;
+    bottom: calc(64%); 
+    left: 71%;
 }
 
 #icons img {
@@ -50,22 +49,27 @@ body {
     color: aliceblue;
     font-family: Georgia, serif;
     font-size:6.5em;
+    line-height: 0.8;
 }
 
 #developer{
     color: aliceblue;
     font-family: Georgia, serif;
     font-size:8.5em;
+    line-height: 0.8;
 }
+
 #descricao {
-    position: absolute;
-    color: rgb(154, 188, 218);
-    font-family: Georgia, sans-serif;
-    bottom: calc(25%); 
-    left: 60%;
+    color: rgb(174, 210, 241);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    line-height: 1.2; /* Ajuste conforme necessário */
+    margin-top: 0px; /* Espaçamento superior para separá-lo do conteúdo acima */
+    align-self: flex-end; /* Alinhar-se à direita dentro da div central_externa */
 }
 
 p{
+    font-size:1.1em;
+    color: rgb(174, 210, 241);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-
+    line-height: 0;
 }
